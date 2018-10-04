@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{fathi2011learning}
+Alireza Fathi, Xiaofeng Ren, and James~M Rehg,
+\newblock ``Learning to recognize objects in egocentric activities,''
+\newblock in {\em CVPR}, 2011.
+
+\bibitem{pirsiavash2012detecting}
+Hamed Pirsiavash and Deva Ramanan,
+\newblock ``Detecting activities of daily living in first-person camera
+  views,''
+\newblock in {\em CVPR}, 2012.
+
+\bibitem{kitani2011fast}
+Kris~Makoto Kitani, Takahiro Okabe, Yoichi Sato, and Akihiro Sugimoto,
+\newblock ``Fast unsupervised ego-action learning for first-person sports
+  videos,''
+\newblock in {\em CVPR}, 2011, pp. 3241--3248.
+
+\bibitem{suriya2016trajfeatures}
+Suriya Singh, Chetan Arora, and C.~V. Jawahar,
+\newblock ``Trajectory aligned features for first person action recognition,''
+\newblock {\em Pattern Recognition}, vol. 62, pp. 45--55, 2016.
+
+\bibitem{suriya2016cvpr}
+Suriya Singh, Chetan Arora, and C~V, Jawahar,
+\newblock ``First person action recognition using deep learned descriptors,''
+\newblock in {\em CVPR}, 2016, pp. 2620--2628.
+
+\bibitem{spriggs2009temporal}
+Ekaterina~H Spriggs, Fernando De~La~Torre, and Martial Hebert,
+\newblock ``Temporal segmentation and activity classification from first-person
+  sensing,''
+\newblock in {\em CVPRW}, 2009, pp. 17--24.
+
+\bibitem{lee2012discovering}
+Yong~Jae Lee, Joydeep Ghosh, and Kristen Grauman,
+\newblock ``Discovering important people and objects for egocentric video
+  summarization.,''
+\newblock in {\em CVPR}, 2012, pp. 1346--1353.
+
+\bibitem{poleg2016compact}
+Yair Poleg, Ariel Ephrat, Shmuel Peleg, and Chetan Arora,
+\newblock ``Compact cnn for indexing egocentric videos,''
+\newblock in {\em WACV}. IEEE, 2016, pp. 1--9.
+
+\end{thebibliography}
