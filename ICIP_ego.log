@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.27)  4 OCT 2018 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.27)  5 OCT 2018 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -717,16 +717,44 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTright=\skip110
 \flrow@types=\toks38
 )
+(/usr/share/texlive/texmf-dist/tex/latex/mwe/mwe.sty
+Package: mwe 2012/05/15 v0.3 Package to support minimal working examples (MWE)
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+\c@blindtext=\count150
+\c@Blindtext=\count151
+\c@blind@countparstart=\count152
+\blind@countxx=\count153
+\blindtext@numBlindtext=\count154
+\blind@countyy=\count155
+\c@blindlist=\count156
+\c@blindlistlevel=\count157
+\c@blindlist@level=\count158
+\blind@listitem=\count159
+\c@blind@listcount=\count160
+\c@blind@levelcount=\count161
+\blind@mathformula=\count162
+\blind@Mathformula=\count163
+\c@blind@randomcount=\count164
+\c@blind@randommax=\count165
+\c@blind@pangramcount=\count166
+\c@blind@pangrammax=\count167
+))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count149
+\c@tracingmulticols=\count168
 \mult@box=\box55
 \multicol@leftmargin=\dimen267
-\c@unbalance=\count150
-\c@collectmore=\count151
-\doublecol@number=\count152
-\multicoltolerance=\count153
-\multicolpretolerance=\count154
+\c@unbalance=\count169
+\c@collectmore=\count170
+\doublecol@number=\count171
+\multicoltolerance=\count172
+\multicolpretolerance=\count173
 \full@width=\dimen268
 \page@free=\dimen269
 \premulticols=\dimen270
@@ -757,14 +785,14 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \@tempa=\box76
 \@tempa=\box77
 \@tempa=\box78
-\c@columnbadness=\count155
-\c@finalcolumnbadness=\count156
+\c@columnbadness=\count174
+\c@finalcolumnbadness=\count175
 \last@try=\dimen273
 \multicolovershoot=\dimen274
 \multicolundershoot=\dimen275
 \mult@nat@firstbox=\box79
 \colbreak@box=\box80
-\mc@col@check@num=\count157
+\mc@col@check@num=\count176
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -792,31 +820,31 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
  (./ICIP_ego.aux)
 \openout1 = `ICIP_ego.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count158
+\scratchcounter=\count177
 \scratchdimen=\dimen276
 \scratchbox=\box81
-\nofMPsegments=\count159
-\nofMParguments=\count160
+\nofMPsegments=\count178
+\nofMParguments=\count179
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count161
+\MPscratchCnt=\count180
 \MPscratchDim=\dimen277
-\MPnumerator=\count162
-\makeMPintoPDFobject=\count163
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
 \everyMPtoPDFconversion=\toks40
 ) ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
@@ -855,7 +883,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
@@ -898,26 +926,26 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 255.
+LaTeX Info: Redefining \selectfont on input line 256.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 <images/logo_icip.pdf, id=29, 614.295pt x 794.97pt>
 File: images/logo_icip.pdf Graphic file (type pdf)
  <use images/logo_icip.pdf>
-Package pdftex.def Info: images/logo_icip.pdf used on input line 293.
+Package pdftex.def Info: images/logo_icip.pdf used on input line 294.
 (pdftex.def)             Requested size: 77.0374pt x 99.68639pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 293.
+LaTeX Font Info:    Try loading font information for U+msa on input line 294.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 293.
+LaTeX Font Info:    Try loading font information for U+msb on input line 294.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 293.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 294.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
@@ -927,139 +955,170 @@ File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 File: images/logo_iiitd.png Graphic file (type png)
 
 <use images/logo_iiitd.png>
-Package pdftex.def Info: images/logo_iiitd.png used on input line 293.
+Package pdftex.def Info: images/logo_iiitd.png used on input line 294.
 (pdftex.def)             Requested size: 89.84375pt x 53.90623pt.
 
 <images/logo_iitd.png, id=32, 225.84375pt x 225.84375pt>
 File: images/logo_iitd.png Graphic file (type png)
 
 <use images/logo_iitd.png>
-Package pdftex.def Info: images/logo_iitd.png used on input line 293.
+Package pdftex.def Info: images/logo_iitd.png used on input line 294.
 (pdftex.def)             Requested size: 53.9038pt x 53.90623pt.
-LaTeX Font Info:    Try loading font information for T1+aett on input line 293.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 294.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-<images/spoon_imagenet.png, id=33, 224.84pt x 224.84pt>
+<images/take_P_04_485.png, id=33, 321.2pt x 240.9pt>
+File: images/take_P_04_485.png Graphic file (type png)
+
+<use images/take_P_04_485.png>
+Package pdftex.def Info: images/take_P_04_485.png used on input line 326.
+(pdftex.def)             Requested size: 63.13121pt x 34.14113pt.
+
+<images/Walking_Huji_Ariel_13_23_87.png, id=34, 321.2pt x 240.9pt>
+File: images/Walking_Huji_Ariel_13_23_87.png Graphic file (type png)
+
+<use images/Walking_Huji_Ariel_13_23_87.png>
+Package pdftex.def Info: images/Walking_Huji_Ariel_13_23_87.png used on input l
+ine 326.
+(pdftex.def)             Requested size: 63.13121pt x 34.14113pt.
+
+<images/take_P_04_485_F.png, id=35, 321.2pt x 240.9pt>
+File: images/take_P_04_485_F.png Graphic file (type png)
+
+<use images/take_P_04_485_F.png>
+Package pdftex.def Info: images/take_P_04_485_F.png used on input line 326.
+(pdftex.def)             Requested size: 63.13121pt x 34.14113pt.
+
+<images/Walking_Huji_Ariel_13_23_F_87.png, id=36, 321.2pt x 240.9pt>
+File: images/Walking_Huji_Ariel_13_23_F_87.png Graphic file (type png)
+
+<use images/Walking_Huji_Ariel_13_23_F_87.png>
+Package pdftex.def Info: images/Walking_Huji_Ariel_13_23_F_87.png used on input
+ line 326.
+(pdftex.def)             Requested size: 63.13121pt x 34.14113pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+<images/spoon_imagenet.png, id=37, 224.84pt x 224.84pt>
 File: images/spoon_imagenet.png Graphic file (type png)
 
 <use images/spoon_imagenet.png>
-Package pdftex.def Info: images/spoon_imagenet.png used on input line 323.
-(pdftex.def)             Requested size: 74.63313pt x 56.9063pt.
+Package pdftex.def Info: images/spoon_imagenet.png used on input line 349.
+(pdftex.def)             Requested size: 56.13438pt x 34.1431pt.
 
-<images/spoon_CofHoney.png, id=34, 224.84pt x 224.84pt>
+<images/spoon_CofHoney.png, id=38, 224.84pt x 224.84pt>
 File: images/spoon_CofHoney.png Graphic file (type png)
 
 <use images/spoon_CofHoney.png>
-Package pdftex.def Info: images/spoon_CofHoney.png used on input line 323.
-(pdftex.def)             Requested size: 74.63313pt x 56.9063pt.
+Package pdftex.def Info: images/spoon_CofHoney.png used on input line 349.
+(pdftex.def)             Requested size: 56.13438pt x 34.1431pt.
 
-<images/resized_spoon.png, id=35, 224.84pt x 224.84pt>
+<images/resized_spoon.png, id=39, 224.84pt x 224.84pt>
 File: images/resized_spoon.png Graphic file (type png)
 
 <use images/resized_spoon.png>
-Package pdftex.def Info: images/resized_spoon.png used on input line 323.
-(pdftex.def)             Requested size: 74.63313pt x 56.9063pt.
+Package pdftex.def Info: images/resized_spoon.png used on input line 349.
+(pdftex.def)             Requested size: 56.13438pt x 34.1431pt.
 
-<images/bread_image_net.png, id=36, 224.84pt x 224.84pt>
+<images/bread_image_net.png, id=40, 224.84pt x 224.84pt>
 File: images/bread_image_net.png Graphic file (type png)
 
 <use images/bread_image_net.png>
-Package pdftex.def Info: images/bread_image_net.png used on input line 323.
-(pdftex.def)             Requested size: 74.63313pt x 56.9063pt.
+Package pdftex.def Info: images/bread_image_net.png used on input line 349.
+(pdftex.def)             Requested size: 56.13438pt x 34.1431pt.
 
-<images/bread_S1CheeseC1.png, id=37, 224.84pt x 224.84pt>
+<images/bread_S1CheeseC1.png, id=41, 224.84pt x 224.84pt>
 File: images/bread_S1CheeseC1.png Graphic file (type png)
 
 <use images/bread_S1CheeseC1.png>
-Package pdftex.def Info: images/bread_S1CheeseC1.png used on input line 323.
-(pdftex.def)             Requested size: 74.63313pt x 56.9063pt.
+Package pdftex.def Info: images/bread_S1CheeseC1.png used on input line 349.
+(pdftex.def)             Requested size: 56.13438pt x 34.1431pt.
 
-<images/resized_bread.png, id=38, 224.84pt x 224.84pt>
+<images/resized_bread.png, id=42, 224.84pt x 224.84pt>
 File: images/resized_bread.png Graphic file (type png)
 
 <use images/resized_bread.png>
-Package pdftex.def Info: images/resized_bread.png used on input line 323.
-(pdftex.def)             Requested size: 74.63313pt x 56.9063pt.
+Package pdftex.def Info: images/resized_bread.png used on input line 349.
+(pdftex.def)             Requested size: 56.13438pt x 34.1431pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (4.41301pt too wide) in paragraph at lines 323--323
- [] 
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<images/ego_fusion.pdf, id=39, 720.6925pt x 440.64626pt>
+<images/ego_fusion.pdf, id=43, 720.6925pt x 440.64626pt>
 File: images/ego_fusion.pdf Graphic file (type pdf)
 
 <use images/ego_fusion.pdf>
-Package pdftex.def Info: images/ego_fusion.pdf used on input line 351.
+Package pdftex.def Info: images/ego_fusion.pdf used on input line 367.
 (pdftex.def)             Requested size: 421.16905pt x 199.16978pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
 
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 400--400
 \T1/aer/bx/n/10 Applicability in real life set-ting where dif-fer-
  []
 
 
-Overfull \vbox (100.0pt too high) detected at line 384
+Overfull \vbox (112.0pt too high) detected at line 400
  []
 
-<images/cm.pdf, id=40, 694.64236pt x 701.16801pt>
+<images/cm.pdf, id=44, 694.64236pt x 701.16801pt>
 File: images/cm.pdf Graphic file (type pdf)
  <use images/cm.pdf>
-Package pdftex.def Info: images/cm.pdf used on input line 384.
+Package pdftex.def Info: images/cm.pdf used on input line 400.
 (pdftex.def)             Requested size: 186.65173pt x 188.39778pt.
 
-Overfull \vbox (167.99782pt too high) detected at line 384
+Overfull \vbox (167.99782pt too high) detected at line 400
  []
 
 
-Overfull \hbox (42.03366pt too wide) in paragraph at lines 384--384
+Overfull \hbox (42.03366pt too wide) in paragraph at lines 400--400
  [] 
  []
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<images/S4_Cheese.pdf, id=41, 722.7pt x 289.08pt>
+<images/S4_Cheese.pdf, id=45, 722.7pt x 289.08pt>
 File: images/S4_Cheese.pdf Graphic file (type pdf)
  <use images/S4_Cheese.pdf>
-Package pdftex.def Info: images/S4_Cheese.pdf used on input line 407.
-(pdftex.def)             Requested size: 225.47928pt x 56.90189pt.
+Package pdftex.def Info: images/S4_Cheese.pdf used on input line 422.
+(pdftex.def)             Requested size: 225.47928pt x 54.0568pt.
 
-<images/S4_hotdog.pdf, id=42, 722.7pt x 289.08pt>
+<images/S4_hotdog.pdf, id=46, 722.7pt x 289.08pt>
 File: images/S4_hotdog.pdf Graphic file (type pdf)
  <use images/S4_hotdog.pdf>
-Package pdftex.def Info: images/S4_hotdog.pdf used on input line 407.
-(pdftex.def)             Requested size: 225.47928pt x 56.90189pt.
+Package pdftex.def Info: images/S4_hotdog.pdf used on input line 422.
+(pdftex.def)             Requested size: 225.47928pt x 54.0568pt.
 
-<images/S4_Pealate.pdf, id=43, 722.7pt x 289.08pt>
+<images/S4_Pealate.pdf, id=47, 722.7pt x 289.08pt>
 File: images/S4_Pealate.pdf Graphic file (type pdf)
  <use images/S4_Pealate.pdf>
-Package pdftex.def Info: images/S4_Pealate.pdf used on input line 407.
-(pdftex.def)             Requested size: 225.47928pt x 56.90189pt.
+Package pdftex.def Info: images/S4_Pealate.pdf used on input line 422.
+(pdftex.def)             Requested size: 225.47928pt x 54.0568pt.
 
-<images/S4_Peanut.pdf, id=44, 722.7pt x 289.08pt>
+<images/S4_Peanut.pdf, id=48, 722.7pt x 289.08pt>
 File: images/S4_Peanut.pdf Graphic file (type pdf)
  <use images/S4_Peanut.pdf>
-Package pdftex.def Info: images/S4_Peanut.pdf used on input line 407.
-(pdftex.def)             Requested size: 225.47928pt x 56.90189pt.
+Package pdftex.def Info: images/S4_Peanut.pdf used on input line 422.
+(pdftex.def)             Requested size: 225.47928pt x 54.0568pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1074,11 +1133,13 @@ Missing character: There is no ; in font nullfont!
  [2
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo_icip.pdf> <.
-/images/logo_iiitd.png> <./images/logo_iitd.png> <./images/spoon_imagenet.png (
-PNG copy)> <./images/spoon_CofHoney.png (PNG copy)> <./images/resized_spoon.png
- (PNG copy)> <./images/bread_image_net.png (PNG copy)> <./images/bread_S1Cheese
-C1.png (PNG copy)> <./images/resized_bread.png (PNG copy)> <./images/ego_fusion
-.pdf
+/images/logo_iiitd.png> <./images/logo_iitd.png> <./images/take_P_04_485.png (P
+NG copy)> <./images/Walking_Huji_Ariel_13_23_87.png> <./images/take_P_04_485_F.
+png (PNG copy)> <./images/Walking_Huji_Ariel_13_23_F_87.png> <./images/spoon_im
+agenet.png (PNG copy)> <./images/spoon_CofHoney.png (PNG copy)> <./images/resiz
+ed_spoon.png (PNG copy)> <./images/bread_image_net.png (PNG copy)> <./images/br
+ead_S1CheeseC1.png (PNG copy)> <./images/resized_bread.png (PNG copy)> <./image
+s/ego_fusion.pdf
 
 pdfTeX warning: pdflatex (file ./images/ego_fusion.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
@@ -1104,26 +1165,27 @@ pdfTeX warning: pdflatex (file ./images/S4_Peanut.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >] (./ICIP_ego.aux) ) 
 Here is how much of TeX's memory you used:
- 18795 strings out of 494953
- 365953 string characters out of 6180977
- 638451 words of memory out of 5000000
- 21637 multiletter control sequences out of 15000+600000
- 38671 words of font info for 77 fonts, out of 8000000 for 9000
+ 19166 strings out of 494953
+ 371466 string characters out of 6180977
+ 746203 words of memory out of 5000000
+ 21987 multiletter control sequences out of 15000+600000
+ 41466 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,17n,92p,769b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on ICIP_ego.pdf (1 page, 935354 bytes).
+bx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmtt12.pfb>
+Output written on ICIP_ego.pdf (1 page, 1336470 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 205 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 

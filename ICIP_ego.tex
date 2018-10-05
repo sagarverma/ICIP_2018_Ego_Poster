@@ -16,6 +16,7 @@
 
 \usepackage{array}
 \usepackage{floatrow}
+\usepackage{mwe}
 
 \usepackage{graphicx}
 \usepackage{multicol}
@@ -281,148 +282,162 @@
  }
  % Title
  {\sc\Huge Making Third Person Techniques Recognize First-Person Actions in Egocentric Videos}
- % Authors
- {Sagar Verma, Pravin Nagar, Divam Gupta, and Chetan Arora\\[1em]
- {\texttt{sagar.verma@centralesupelec.fr, pravinn@iiitd.ac.in, divam14038@iiitd.ac.in, chetan@iitd.ac.in}}}
- % University logo
- {
-  \begin{tabular}{r r}
-    \includegraphics[height=0.08\textheight]{logo_iiitd} &
-    \includegraphics[height=0.08\textheight]{logo_iitd} \\
-  \end{tabular}
- }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Now define the boxes that make up the poster
-%%%---------------------------------------------------------------------------
-%%% Each box has a name and can be placed absolutely or relatively.
-%%% The only inconvenience is that you can only specify a relative position
-%%% towards an already declared box. So if you have a box attached to the
-%%% bottom, one to the top and a third one which should be inbetween, you
-%%% have to specify the top and bottom boxes before you specify the middle
-%%% box.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Problem Statement}{name=abstract,column=0,row=0,span=1}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  A generic framework to recognize all categories of action classes for egocentric videos.
-      \begin{center}
-      \begin{tabular}{@{}c@{}c@{}c}
-        \includegraphics[width=0.331\linewidth, height=20mm]{spoon_imagenet}&
-        \includegraphics[width=0.331\linewidth, height=20mm]{spoon_CofHoney}&
-        \includegraphics[width=0.331\linewidth, height=20mm]{resized_spoon}\\[-0.1em]
-        \includegraphics[width=0.331\linewidth, height=20mm]{bread_image_net}&
-        \includegraphics[width=0.331\linewidth, height=20mm]{bread_S1CheeseC1}&
-        \includegraphics[width=0.331\linewidth, height=20mm]{resized_bread}\\[-0.1em]
-      \end{tabular}
-      \end{center}
-  \vspace{1em}
-  \textbf{After cropping and resizing the objects become comparable to the objects in third person videos.}
-
-  }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Contributions}{name=contributions,column=0,below=abstract}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \centering
-    \begin{enumerate}
-     \item Deep neural network trained on third person videos do not adapt to egocentric action due to large difference in size of the visible objects.
-     \item We propose curriculum learning by merging similar but opposite actions while training CNN.
-     \item Proposed framework is generic to all categories of egocentric actions.
-    \end{enumerate}
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Related Work}{name=relatedwork,column=0,below=contributions}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  Earlier works on first person action recognition use hands and objects as important cues.\cite{fathi2011learning, pirsiavash2012detecting}
-  On the other end many works only use motion information for first person action recognition.\cite{kitani2011fast, suriya2016trajfeatures}
-  State of the art (SoTA) techniques focus only on one specific category of action classes.
-
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Proposed Architecture}{name=architecture,column=1,row=0,span=2}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
- \center\includegraphics[width=0.9\linewidth, height=7cm]{ego_fusion}
-
-
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Results and Discussion}{name=results,column=1,below=architecture,span=2}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\setlength{\tabcolsep}{8pt}
-
- \begin{center}
-  \begin{tabular}{l c c c c c c}
-    \cmidrule{1-6}
-      \textbf{Dataset} & \textbf{Subjects} & \textbf{Frames} & \textbf{Classes} &  \multicolumn{2}{c}{\textbf{Accuracy}} & \multirow{8}{4cm}{\textbf{Accuracy comparison of our method with SoTA and statistics of egocentric video datasets}} \\
-      & & & & \textbf{Current} & \textbf{Ours} & \\
-
-      \cmidrule{1-6}
-      GTEA \cite{fathi2011learning} & 4 & 31,253 & 11 & 68.50\cite{suriya2016cvpr} & 82.71 & \\
-      EGTEA+ \cite{fathi2011learning} & 32 & 1,055,937 & 19 & NA & 66 & \\
-      Kitchen \cite{spriggs2009temporal} & 7 & 48,117 & 29 & 66.23\cite{suriya2016cvpr} & 71.92 & \\
-      ADL \cite{pirsiavash2012detecting} & 5 & 93,293 & 21 & 37.58\cite{suriya2016cvpr} & 44.13 & \\
-      UTE \cite{lee2012discovering} & 2 & 208,230 & 21 & 60.17\cite{suriya2016cvpr} & 65.12 & \\
-      HUJI \cite{poleg2016compact} & NA & 1,338,606 & 14 & 86\cite{poleg2016compact} & 93.92 & \\
-      \cmidrule{1-6}
+  % Authors
+  {Sagar Verma, Pravin Nagar, Divam Gupta, and Chetan Arora\\[1em]
+  {\texttt{sagar.verma@centralesupelec.fr, pravinn@iiitd.ac.in, divam14038@iiitd.ac.in, chetan@iitd.ac.in}}}
+  % University logo
+  {
+   \begin{tabular}{r r}
+     \includegraphics[height=0.08\textheight]{logo_iiitd} &
+     \includegraphics[height=0.08\textheight]{logo_iitd} \\
    \end{tabular}
-   \end{center}
+  }
 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%% Now define the boxes that make up the poster
+ %%%---------------------------------------------------------------------------
+ %%% Each box has a name and can be placed absolutely or relatively.
+ %%% The only inconvenience is that you can only specify a relative position
+ %%% towards an already declared box. So if you have a box attached to the
+ %%% bottom, one to the top and a third one which should be in between, you
+ %%% have to specify the top and bottom boxes before you specify the middle
+ %%% box.
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \headerbox{Problem Statement}{name=abstract,column=0,row=0,span=1}{
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   DNN trained on third-person actions do not adapt to egocentric actions due to a large difference in size of visible objects. Another complexity is multiple action categories. This work unifies the feature learning for multiple action categories using a generic two-stream architecture.
 
    \begin{center}
-   \begin{tabular}{l r}
-     \multirow{2}{8.8cm}{\justify \textbf{\newline \newline Applicability in real life setting where different action categories are present} \newline To validate the applicability of our method, we use mixed samples from GTEA and HUJI dataset. From the confusion matrix it is evident that the proposed network does not seem to have any confusion in the different category of actions.} & \\
-     & \multirow{2}{8cm}{\includegraphics[width=0.82\linewidth]{cm}} \\
-   \end{tabular}
+     \begin{tabular}{@{}c c@{}c}
+       \tiny\textbf{RGB} &
+       \raisebox{-.5\height}{\includegraphics[width=0.28\linewidth, height=12mm]{take_P_04_485}} &
+       \raisebox{-.5\height}{\includegraphics[width=0.28\linewidth, height=12mm]{Walking_Huji_Ariel_13_23_87}}\\[-0.1em]
+       \tiny\textbf{Flow} &
+       \raisebox{-.5\height}{\includegraphics[width=0.28\linewidth, height=12mm]{take_P_04_485_F}}&
+       \raisebox{-.5\height}{\includegraphics[width=0.28\linewidth, height=12mm]{Walking_Huji_Ariel_13_23_F_87}}\\[-0.1em]
+       & \tiny\textbf{Take} & \tiny\textbf{Walking} \\[-0.1em]
+     \end{tabular}
    \end{center}
-
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{}{name=results2,column=3,row=0}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        \begin{center}
-
-          \includegraphics[width=1\linewidth, height=20mm]{S4_Cheese}
-          \scriptsize{Activity: Cheese}
-          %\includegraphics[width=1\linewidth, height=20mm]{S4_Coffee}
-          %\includegraphics[width=1\linewidth, height=20mm]{S4_CofHoney}
-          \includegraphics[width=1\linewidth, height=20mm]{S4_hotdog}
-          \scriptsize{Activity: Hotdog}
-          \includegraphics[width=1\linewidth, height=20mm]{S4_Pealate}
-          \scriptsize{Activity: Pealate}
-          \includegraphics[width=1\linewidth, height=20mm]{S4_Peanut}
-          \scriptsize{Activity: Peanut}
-          %\includegraphics[width=1\linewidth, height=20mm]{S4_Tea}
-        \end{center}
-
-  \vspace{1em}
-  \small\textbf{Top and bottom of each sub figure shows predicted and ground truth sequence respectively.}
-
-  }
+   \footnotesize\textbf{Actions with hand-object interaction(take) and without(walking) in two different view streams.}
 
 
+   }
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-   \headerbox{References}{name=references,column=3,below=results2,above=bottom}{
+   \headerbox{Contributions}{name=contributions,column=0,below=abstract}{
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+     \begin{enumerate}
+      \item Deep neural network trained on third person videos do not adapt to egocentric action due to large difference in size of the visible objects.
+      \begin{center}
+      \begin{tabular}{@{}c@{}c@{}c}
+        \includegraphics[width=0.28\linewidth, height=12mm]{spoon_imagenet}&
+        \includegraphics[width=0.28\linewidth, height=12mm]{spoon_CofHoney}&
+        \includegraphics[width=0.28\linewidth, height=12mm]{resized_spoon}\\[-0.1em]
+        \includegraphics[width=0.28\linewidth, height=12mm]{bread_image_net}&
+        \includegraphics[width=0.28\linewidth, height=12mm]{bread_S1CheeseC1}&
+        \includegraphics[width=0.28\linewidth, height=12mm]{resized_bread}\\[-0.1em]
+      \end{tabular}
+      \end{center}
+      {\footnotesize\textbf{After cropping and resizing the objects become comparable to the objects in third person videos.}}
 
-    \bibliographystyle{IEEEbib}
-     \tiny\bibliography{ICIP_ego}
+
+      \item We propose curriculum learning by merging similar but opposite actions while training CNN.
+      \item Proposed framework is generic to all categories of egocentric actions.
+     \end{enumerate}
+ }
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \headerbox{Related Work}{name=relatedwork,column=0,below=contributions}{
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   Earlier works on first-person action recognition use hands and objects as important cues.\cite{fathi2011learning, pirsiavash2012detecting}
+   On the other end many works only use motion information for first-person action recognition.\cite{kitani2011fast, suriya2016trajfeatures}
+   State of the art (SoTA) techniques focus only on one specific category of action classes.
+
+ }
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \headerbox{Proposed Architecture}{name=architecture,column=1,row=0,span=2}{
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \center\includegraphics[width=0.9\linewidth, height=7cm]{ego_fusion}
+
+
+ }
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \headerbox{Results and Discussion}{name=results,column=1,below=architecture,span=2}{
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \setlength{\tabcolsep}{8pt}
+
+  \begin{center}
+   \begin{tabular}{l c c c c c c}
+     \cmidrule{1-6}
+       \textbf{Dataset} & \textbf{Subjects} & \textbf{Frames} & \textbf{Classes} &  \multicolumn{2}{c}{\textbf{Accuracy}} & \multirow{8}{4cm}{\textbf{Accuracy comparison of our method with SoTA and statistics of egocentric video datasets}} \\
+       & & & & \textbf{Current} & \textbf{Ours} & \\
+
+       \cmidrule{1-6}
+       GTEA \cite{fathi2011learning} & 4 & 31,253 & 11 & 68.50\cite{suriya2016cvpr} & 82.71 & \\
+       EGTEA+ \cite{fathi2011learning} & 32 & 1,055,937 & 19 & NA & 66 & \\
+       Kitchen \cite{spriggs2009temporal} & 7 & 48,117 & 29 & 66.23\cite{suriya2016cvpr} & 71.92 & \\
+       ADL \cite{pirsiavash2012detecting} & 5 & 93,293 & 21 & 37.58\cite{suriya2016cvpr} & 44.13 & \\
+       UTE \cite{lee2012discovering} & 2 & 208,230 & 21 & 60.17\cite{suriya2016cvpr} & 65.12 & \\
+       HUJI \cite{poleg2016compact} & NA & 1,338,606 & 14 & 86\cite{poleg2016compact} & 93.92 & \\
+       \cmidrule{1-6}
+    \end{tabular}
+    \end{center}
+
+
+    \begin{center}
+    \begin{tabular}{l r}
+      \multirow{2}{8.8cm}{\justify \textbf{\newline \newline \newline Applicability in real life setting where different action categories are present} \newline To validate the applicability of our method, we use mixed samples from GTEA \cite{fathi2011learning} and HUJI \cite{poleg2016compact} dataset. From the confusion matrix it is evident that the proposed network does not seem to have any confusion in the different category of actions.} & \\
+      & \multirow{2}{8cm}{\includegraphics[width=0.82\linewidth]{cm}} \\
+    \end{tabular}
+    \end{center}
+
+ }
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \headerbox{}{name=results2,column=3,row=0}{
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+         \begin{center}
+
+           \includegraphics[width=1\linewidth, height=19mm]{S4_Cheese}
+           \scriptsize{Activity: Cheese}
+           %\includegraphics[width=1\linewidth, height=20mm]{S4_Coffee}
+           %\includegraphics[width=1\linewidth, height=20mm]{S4_CofHoney}
+           \includegraphics[width=1\linewidth, height=19mm]{S4_hotdog}
+           \scriptsize{Activity: Hotdog}
+           \includegraphics[width=1\linewidth, height=19mm]{S4_Pealate}
+           \scriptsize{Activity: Pealate}
+           \includegraphics[width=1\linewidth, height=19mm]{S4_Peanut}
+           \scriptsize{Activity: Peanut}
+           %\includegraphics[width=1\linewidth, height=20mm]{S4_Tea}
+         \end{center}
+
+   \footnotesize\textbf{Top and bottom of each subfigure shows predicted and ground truth sequence respectively.}
 
    }
 
-   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-     \headerbox{Acknowledgement}{name=ack,column=0,below=relatedwork}{
-   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-   \tiny This work has been supported by Infosys Center for Artificial Intelligence, Visvesaraya Young Faculty Research Fellowship, and Visvesaraya Ph.D. Fellowship from Government of India. We thank Inria and CVN Lab at Centralesupelec to support travel for Sagar Verma.
 
-   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \headerbox{References}{name=references,column=3,below=results2}{
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+     \bibliographystyle{IEEEbib}
+      \tiny\bibliography{ICIP_ego}
+
+    }
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \headerbox{Acknowledgement}{name=ack,column=3,below=references,above=bottom}{
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \tiny This work has been supported by Infosys Center for Artificial Intelligence, Visvesaraya Young Faculty Research Fellowship, and Visvesaraya Ph.D. Fellowship from Government of India. We thank Inria and CVN Lab at Centralesupelec to support travel for Sagar Verma.
+
+    }
 
 
 
