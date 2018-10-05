@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.27)  5 OCT 2018 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.27)  5 OCT 2018 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1060,64 +1060,98 @@ Package pdftex.def Info: images/ego_fusion.pdf used on input line 367.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
-
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 400--400
-\T1/aer/bx/n/10 Applicability in real life set-ting where dif-fer-
- []
-
-
-Overfull \vbox (112.0pt too high) detected at line 400
- []
-
-<images/cm.pdf, id=44, 694.64236pt x 701.16801pt>
+ <images/cm.pdf, id=44, 694.64236pt x 701.16801pt>
 File: images/cm.pdf Graphic file (type pdf)
- <use images/cm.pdf>
-Package pdftex.def Info: images/cm.pdf used on input line 400.
+
+<use images/cm.pdf>
+Package pdftex.def Info: images/cm.pdf used on input line 414.
 (pdftex.def)             Requested size: 186.65173pt x 188.39778pt.
 
-Overfull \vbox (167.99782pt too high) detected at line 400
+Overfull \vbox (143.99782pt too high) detected at line 414
+ []
+
+<images/close_S4_Cheese_C1_0000000613_large.png, id=45, 224.84pt x 224.84pt>
+File: images/close_S4_Cheese_C1_0000000613_large.png Graphic file (type png)
+
+<use images/close_S4_Cheese_C1_0000000613_large.png>
+Package pdftex.def Info: images/close_S4_Cheese_C1_0000000613_large.png used on
+ input line 414.
+(pdftex.def)             Requested size: 85.35774pt x 42.67886pt.
+
+<images/open_S4_CofHoney_C1_0000000149_large.png, id=46, 224.84pt x 224.84pt>
+File: images/open_S4_CofHoney_C1_0000000149_large.png Graphic file (type png)
+
+<use images/open_S4_CofHoney_C1_0000000149_large.png>
+Package pdftex.def Info: images/open_S4_CofHoney_C1_0000000149_large.png used o
+n input line 414.
+(pdftex.def)             Requested size: 85.35774pt x 42.67886pt.
+
+<images/take_S4_Cheese_C1_0000000497_large.png, id=47, 224.84pt x 224.84pt>
+File: images/take_S4_Cheese_C1_0000000497_large.png Graphic file (type png)
+
+<use images/take_S4_Cheese_C1_0000000497_large.png>
+Package pdftex.def Info: images/take_S4_Cheese_C1_0000000497_large.png used on 
+input line 414.
+(pdftex.def)             Requested size: 85.35774pt x 42.67886pt.
+
+<images/close_S4_Cheese_C1_0000000613.png, id=48, 224.84pt x 224.84pt>
+File: images/close_S4_Cheese_C1_0000000613.png Graphic file (type png)
+
+<use images/close_S4_Cheese_C1_0000000613.png>
+Package pdftex.def Info: images/close_S4_Cheese_C1_0000000613.png used on input
+ line 414.
+(pdftex.def)             Requested size: 85.35774pt x 42.67886pt.
+
+<images/open_S4_CofHoney_C1_0000000149.png, id=49, 301.125pt x 301.125pt>
+File: images/open_S4_CofHoney_C1_0000000149.png Graphic file (type png)
+
+<use images/open_S4_CofHoney_C1_0000000149.png>
+Package pdftex.def Info: images/open_S4_CofHoney_C1_0000000149.png used on inpu
+t line 414.
+(pdftex.def)             Requested size: 85.35744pt x 42.67642pt.
+
+<images/take_S4_Cheese_C1_0000000497.png, id=50, 224.84pt x 224.84pt>
+File: images/take_S4_Cheese_C1_0000000497.png Graphic file (type png)
+
+<use images/take_S4_Cheese_C1_0000000497.png>
+Package pdftex.def Info: images/take_S4_Cheese_C1_0000000497.png used on input 
+line 414.
+(pdftex.def)             Requested size: 85.35774pt x 42.67886pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+
  []
 
 
-Overfull \hbox (42.03366pt too wide) in paragraph at lines 400--400
+Overfull \hbox (47.7241pt too wide) in paragraph at lines 414--414
  [] 
  []
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<images/S4_Cheese.pdf, id=45, 722.7pt x 289.08pt>
+<images/S4_Cheese.pdf, id=51, 722.7pt x 289.08pt>
 File: images/S4_Cheese.pdf Graphic file (type pdf)
  <use images/S4_Cheese.pdf>
-Package pdftex.def Info: images/S4_Cheese.pdf used on input line 422.
+Package pdftex.def Info: images/S4_Cheese.pdf used on input line 436.
 (pdftex.def)             Requested size: 225.47928pt x 54.0568pt.
 
-<images/S4_hotdog.pdf, id=46, 722.7pt x 289.08pt>
+<images/S4_hotdog.pdf, id=52, 722.7pt x 289.08pt>
 File: images/S4_hotdog.pdf Graphic file (type pdf)
  <use images/S4_hotdog.pdf>
-Package pdftex.def Info: images/S4_hotdog.pdf used on input line 422.
+Package pdftex.def Info: images/S4_hotdog.pdf used on input line 436.
 (pdftex.def)             Requested size: 225.47928pt x 54.0568pt.
 
-<images/S4_Pealate.pdf, id=47, 722.7pt x 289.08pt>
+<images/S4_Pealate.pdf, id=53, 722.7pt x 289.08pt>
 File: images/S4_Pealate.pdf Graphic file (type pdf)
  <use images/S4_Pealate.pdf>
-Package pdftex.def Info: images/S4_Pealate.pdf used on input line 422.
+Package pdftex.def Info: images/S4_Pealate.pdf used on input line 436.
 (pdftex.def)             Requested size: 225.47928pt x 54.0568pt.
 
-<images/S4_Peanut.pdf, id=48, 722.7pt x 289.08pt>
+<images/S4_Peanut.pdf, id=54, 722.7pt x 289.08pt>
 File: images/S4_Peanut.pdf Graphic file (type pdf)
  <use images/S4_Peanut.pdf>
-Package pdftex.def Info: images/S4_Peanut.pdf used on input line 422.
+Package pdftex.def Info: images/S4_Peanut.pdf used on input line 436.
 (pdftex.def)             Requested size: 225.47928pt x 54.0568pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1147,7 +1181,11 @@ e pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./images/cm.pdf): PDF inclusion: multiple pdfs w
 ith page group included in a single page
-> <./images/S4_Cheese.pdf
+> <./images/close_S4_Cheese_C1_0000000613_large.png (PNG copy)> <./images/open_
+S4_CofHoney_C1_0000000149_large.png (PNG copy)> <./images/take_S4_Cheese_C1_000
+0000497_large.png (PNG copy)> <./images/close_S4_Cheese_C1_0000000613.png (PNG 
+copy)> <./images/open_S4_CofHoney_C1_0000000149.png (PNG copy)> <./images/take_
+S4_Cheese_C1_0000000497.png (PNG copy)> <./images/S4_Cheese.pdf
 
 pdfTeX warning: pdflatex (file ./images/S4_Cheese.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
@@ -1165,11 +1203,11 @@ pdfTeX warning: pdflatex (file ./images/S4_Peanut.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >] (./ICIP_ego.aux) ) 
 Here is how much of TeX's memory you used:
- 19166 strings out of 494953
- 371466 string characters out of 6180977
- 746203 words of memory out of 5000000
- 21987 multiletter control sequences out of 15000+600000
- 41466 words of font info for 82 fonts, out of 8000000 for 9000
+ 19201 strings out of 494953
+ 372852 string characters out of 6180977
+ 748629 words of memory out of 5000000
+ 22011 multiletter control sequences out of 15000+600000
+ 43030 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,17n,92p,769b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
@@ -1180,12 +1218,13 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmtt12.pfb>
-Output written on ICIP_ego.pdf (1 page, 1336470 bytes).
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb>
+Output written on ICIP_ego.pdf (1 page, 1778546 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 215 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
